@@ -15,6 +15,7 @@
       "extends": [
         "plugin:@angular-eslint/recommended",
         "plugin:@angular-eslint/template/process-inline-templates",
+        "plugin:@typescript-eslint/recommended",
         "plugin:import/recommended",
         "plugin:import/typescript",
         "airbnb-typescript/base"
@@ -57,10 +58,36 @@
           }
         ],
         "no-multi-spaces": "error",
-        "object-curly-spacing": ["error", "always"],
-        "comma-dangle": ["error", "always-multiline"],
-        "eqeqeq": ["error", "always"],
-        "arrow-body-style": ["error", "as-needed"]
+        "object-curly-spacing": [
+          "error",
+          "always"
+        ],
+        "comma-dangle": [
+          "error",
+          "always-multiline"
+        ],
+        "eqeqeq": [
+          "error",
+          "always"
+        ],
+        "arrow-body-style": [
+          "error",
+          "as-needed"
+        ],
+        "lines-between-class-members": [
+          "error",
+          "always",
+          {
+            "exceptAfterSingleLine": true
+          }
+        ],
+        "@typescript-eslint/lines-between-class-members": [
+          "error",
+          "always",
+          {
+            "exceptAfterSingleLine": true
+          }
+        ]
       }
     },
     {
