@@ -1,10 +1,36 @@
-<div class="box box-info m-3 ta-c">
-    <h1>app</h1>
-</div>
-<div class="row">
-    <div class="col-12">
+<div class="app-main">
+  <uxwb-menu class="app-menu">
+    <ng-template menu-header>
+      <div class="box box-info row">Application</div>
+    </ng-template>
+    <ng-template menu-body>
+      <div class="pl-1">
+        <a routerLink="/home" class="row">
+          <i class="uxwb uxwb-home">&nbsp;</i>
+          Home
+        </a>
+        <a routerLink="/settings" class="row">
+          <i class="uxwb uxwb-settings">&nbsp;</i>
+          Settings
+        </a>
+      </div>
+    </ng-template>
+    <ng-template menu-footer>
+      <div class="row ta-c">
+        <div class="col">
+          &copy; app
+        </div>
+      </div>
+    </ng-template>
+  </uxwb-menu>
+
+  <div class="app-content">
+    <div class="row">
+      <div class="col-12">
         <router-outlet></router-outlet>
+      </div>
     </div>
+  </div>
 </div>
 
 
