@@ -5,7 +5,7 @@ Preparing a customized project
 
 ```bash
 curl -sSfL \
-  https://raw.githubusercontent.com/osspkg/frontend-templates/master/install.sh \
+  https://raw.githubusercontent.com/osspkg/frontend-templates/master/ftm.sh \
   -o ~/.local/bin/ftm &&\
   chmod +x ~/.local/bin/ftm
 ```
