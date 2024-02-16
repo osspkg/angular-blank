@@ -17,20 +17,16 @@ clone_branch() {
 
 
 PS3='Please choice frontend template: '
-options=("Quit" "Angular14" "Angular15" "Vue3")
+options=("Quit" "Angular@v16" "Vue@v3")
 select opt in "${options[@]}"
 do
     case $opt in
-        "Angular14")
-            clone_branch "v14"
+        "Angular@v16")
+            clone_branch "angular_v16"
             break
             ;;
-        "Angular15")
-            clone_branch "v15"
-            break
-            ;;
-        "Vue3")
-            clone_branch "vue3"
+        "Vue@v3")
+            clone_branch "vue_v3"
             break
             ;;
         "Quit")
