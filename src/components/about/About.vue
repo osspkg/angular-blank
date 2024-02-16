@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import Calendar from 'primevue/calendar'
-import { useDateStore } from '@/pages/page1/storage'
+import { useDateStore } from '@/components/about/storage'
 
 const date = useDateStore()
 </script>

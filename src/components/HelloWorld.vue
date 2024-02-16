@@ -7,7 +7,7 @@ defineProps<{
 </script>
 
 <template>
-  <div>{{ msg }}</div>
+  <h2>{{ msg }}</h2>
   <IconCommunity />
 </template>
 
