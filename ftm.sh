@@ -24,12 +24,12 @@ reinstall(){
 
 
 PS3='Please choice frontend template: '
-options=("Quit" "Self Upgrade" "Angular@v16" "Vue@v3 SPA" "Vue@v3 MultiApp")
+options=("Quit" "Self Upgrade" "Angular@v17" "Vue@v3 SPA" "Vue@v3 MultiApp")
 select opt in "${options[@]}"
 do
     case $opt in
-        "Angular@v16")
-            clone_branch "angular_v16"
+        "Angular@v17")
+            clone_branch "angular_v17"
             break
             ;;
         "Vue@v3 SPA")
