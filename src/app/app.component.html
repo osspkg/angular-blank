@@ -1,0 +1,29 @@
+<section class="full-width app-root" role="main">
+  <aside class="app-root__menu">
+    <ong-menuv>
+      <ng-template ong-menuv-header>
+        <h4>App Demo</h4>
+      </ng-template>
+      <ng-template ong-menuv-body>
+        <div class="">
+          <a [ong-href]="'/home'" class="box bq bq-secondary no-link" [ong-active-route]="['bq-info']"><i class="ong ong-home"></i>&nbsp;Home</a>
+          <a [ong-href]="'/err'" class="box bq bq-secondary no-link" [ong-active-route]="['bq-info']"><i class="ong ong-cube"></i>&nbsp;Error Page</a>
+          <a [ong-href]="'/other'" class="box bq bq-secondary no-link" [ong-active-route]="['bq-info']"><i class="ong ong-cube"></i>&nbsp;Error Page</a>
+        </div>
+      </ng-template>
+      <ng-template ong-menuv-body>
+
+      </ng-template>
+      <ng-template ong-menuv-footer>
+        <p class="ta-c">&copy; App Demo Team</p>
+      </ng-template>
+    </ong-menuv>
+  </aside>
+  <article class="app-root__body p-1">
+    <router-outlet/>
+  </article>
+</section>
+
+
+
+

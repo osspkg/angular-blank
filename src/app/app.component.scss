@@ -1,0 +1,22 @@
+:host {
+  --app-menu-with: 15rem;
+  --app-menu-height: 100vh;
+}
+
+.app-root {
+  display: flex;
+  box-sizing: border-box;
+  height: var(--app-menu-height);
+
+  &__menu {
+    width: var(--app-menu-with);
+    position: fixed;
+  }
+
+  &__body {
+    margin-left: var(--app-menu-with);
+    width: 100%;
+  }
+}
+
+
