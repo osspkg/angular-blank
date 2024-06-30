@@ -1,2 +1,5 @@
 .idea/
 .vscode/
+.angular/
+dist/
+node_modules/
